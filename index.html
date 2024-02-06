@@ -1,0 +1,202 @@
+//live server - extension package
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML tutorial</title>
+<meta charset="utf-8" />
+<meta http-equiv="charset: utf-8;type:text/html" />
+<meta name="author" content="" />
+<meta name="keyword" content="" />
+<meta name="description" content="" />
+<link rel="stylesheet" href="./external.css" />
+
+<style>
+    h1{
+        background-color: beige;
+    }
+    .textbox{
+        border:2px dashed 
+    }
+    selector{
+        property:value;
+    }
+    #para{
+        font-weight: bold;
+    }
+    .textbox{
+        background-color: beige;
+    }
+    td{
+        font-size: 20px;
+    }
+    input{
+        border: 5px solid red;
+    }
+    table,th,td{
+        border: 2px solid black;
+    }
+    img[src="./photo.jpg"]{
+        height:200px;
+    }
+    table *{
+        font-size: 50px;
+    }
+    div{
+        border:4px solid red;
+        margin: 5px;
+        padding:5 px;
+        background-color:aqua;
+    }
+    #rohan div{
+        background-color: purple;
+    }
+    #rohan>div {
+        background-color: brown;
+    }
+    div#sample{
+        left:0;
+        right:0;
+        top:0;
+        bottom: 0;
+    }
+    #sample{
+        height:400px;
+        width:400px;
+        position: absolute;
+        left:0;
+        top:0;
+        background-color: red;
+    }
+</style>
+<script src="">
+</script>
+</head>
+<body style="background-color:cyan">
+    <div id="John">
+        <div id="steve">
+            <div id="lee"></div>
+            <div id="soo"></div>
+            <div id="poo"></div>
+        </div>   
+        <div id="rohan">
+            <div id="rahul">
+            <div id="xii"></div>
+        </div>
+    </div>
+	<p id="para">This is a pragraph tag</p>
+	<p>This is another paragraph tag</p>
+	<div>This is a div tag</div>
+	<span>This is a span tag</span>
+
+
+	<p></p>
+	<div></div>
+	<span></span>
+	<a href="https://www.google.com">Google Search</a>
+	<a href="./index2.html">Index2</a>
+	<a href="./index.html#para">PARA</a>
+	<br><br/>
+	<hr><hr/>
+	<pre>This is a pre tag</pre>	
+	<img  height="200px"src="./photo.jpg"/>
+	<audio  controls>
+<source src="./sample-3s.mp3"/>
+	</audio>
+	<video controls>
+<source height="300px" src="./SampleVideo_1280x720.mp4" />
+	</video>
+	<embed  src="https://www.youtube.com/embed/Nebv92t2e74?si=h-i5HSY-NIQW"
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/c6PbtDf5k24?si=I-OPgiXv4lptZLfG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<!-- list tags -->
+	<ol type="a">
+		<li>List item</li>
+		<li>List item</li>
+	</ol>
+	<ul>
+ 		<li>List item</li>
+		<li>List item</li>
+	</ul>
+	<dl>
+		<dt>Title:</dt>
+		<dd>Some random text</dd>
+	</dl>
+	<table border="5px">
+	<caption>Student database</caption>
+	<colgroup>
+		<col span="2" style="background-color:red;"/>
+		<col />
+		<col style="background-color:yellow;"/>
+		<tr>
+			<th>First Name</th>
+			<th>Last name</th>
+			<th>place</th>
+			<th>contact</th>
+		</tr>
+		<tr>
+			<td>Deba</td>
+			<td>barick</td>
+			<td>BBSR</td>
+			<td>6371419576</td>
+		</tr>
+		<tr>
+			<td>silu</td>
+			<td>rout</td>
+			<td>KDP</td>
+			<td>7978337577</td>
+		</tr>
+		</tbody>
+		<tfoot>
+
+		</tfoot>
+</table>
+		<form method="" action="backend.php" >
+			<label for="username">Enter username:</label>
+			<input type="text" name="uname" id="username" />
+			
+			<button type="submit">Submit</button>
+			<br>
+			
+			<label for="passwd">Enter password:</label>
+			<input type="password" name="pwd" id="passwd" />
+			
+			<button type="submit">Submit</button>
+		<form>
+			<label >Label</label>
+			<input type="text" name="subject" placeholder="--No subject--" />
+			<textarea rows="10" cols="50"></textarea>
+			<button type="">Click</button>
+		</form>
+		<form>
+			<fieldset>
+			<legend>HTML forms:</legend>
+			<formgroup>
+				<label for="">label</label>
+			<input type="text" name="subject" placeholder="--No subject--" />
+			<textarea rows="10" cols="50"></textarea>
+			<button type="">Click</button>	
+		</form>	
+		<input type="date"/>
+		<input type="datetime"/>
+		<input type="datetime-local"/>
+		<input type="time"/>		
+		<input type="file"/>
+		<input type="color"/>
+		<input type="range" min="0" max="10" name="range"/>
+
+
+
+		<input type="checkbox" name="chk1"><label>chk1</label>
+		<input type="checkbox" name="chk2"><label>chk2</label>
+		<input type="checkbox" name="chk3"><label>chk3</label>
+		<input type="checkbox"  name="chk4"><label>chk4</label>
+
+		<input type="radio" name="gender" value="M"><label>male</label>
+		<input type="radio" name="gender" value="F"><label>Female</label>
+		<input type="radio" name="gender" value="O"><label>others</label>
+		
+		<input type="submit">Submit</input>
+		
+		<button type="submit">Submit</button>
+</body>
+</html>
